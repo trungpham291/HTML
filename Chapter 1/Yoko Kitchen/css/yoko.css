@@ -1,0 +1,178 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+
+  .content
+  {
+   
+    width: 65%;
+    float: left;
+    height: 1238px;
+  }
+.menu
+{
+
+  background-color: #AEACA8;
+  display: flex;
+}
+.menu li 
+{
+
+  padding: 10px;
+  list-style: none;
+  margin-left: 80px;
+}
+.menu li a
+{
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px;
+}
+.menu li a:hover
+{
+  color: black;
+}
+.magil
+{
+  width: 100%;
+  display: flex;
+  margin-top: 20px;  
+ 
+}
+.content .magil .logo
+{
+  border: 15px solid gray;
+  width: 35%;
+  text-align: center;
+  float: left;
+  margin-left: 100px;
+  margin-top: 45px;
+}
+.content .magil .logo img
+{
+  width: 100%;
+
+}
+.magil .text
+{
+
+  width: 80%;
+  margin-left: 76px;
+  margin-top: 45px;
+  
+}
+
+.magill
+{
+
+  width: 100%;
+  display: flex;
+  margin-top: 100px;
+  
+}
+.content .magill .logo
+{
+  border: 15px solid gray;
+  width: 35%;
+  text-align: center;
+  float: left;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.content .magill .logo img
+{
+  width: 100%;
+
+}
+.magill .text
+{
+  width: 80%;
+  margin-left: 76px;
+  margin-top: 45px;
+
+}
+.right
+{
+  width: 30%;
+  border-left: 7px solid #AEACA8;
+  float: left;
+}
+.right .text h1
+{
+  margin-left: 200px;
+  padding: 15px;
+  font-size: 60px;
+  color: red;
+}
+.right .text h3
+{
+  margin-left: 200px;
+  padding: 20px;
+  font-size: 40px;
+  border-bottom: 3px solid red;
+  width: 600px;
+  margin-top: 50px;
+
+}
+.right .text
+{
+  margin-top: 50px;
+  
+
+}
+.texxt h1
+{
+  margin-left: 150px;
+  padding: 15px;
+  font-size: 60px;
+  margin-top: 50px;
+  color: red;
+}
+.texxt h2 
+{
+  margin-left: 200px;
+  padding: 20px;
+  font-size: 40px;
+  border-bottom: 3px solid red;
+  width: 600px;
+  margin-top: 50px;
+}
+.texxt p
+{
+  margin-left: 200px;
+  padding: 20px;
+  font-size: 30px;
+  border-bottom: 3px solid red;
+  width: 600px;
+  margin-top: 50px;
+}
+.footer
+{
+  background-color: #AEACA8;
+  clear: both;
+}
+.footer h1{
+  margin-left: 200px;
+  font-size: 40px;
+}
