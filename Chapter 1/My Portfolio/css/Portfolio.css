@@ -1,0 +1,136 @@
+body {
+    background-color: #9891915c;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    color: #000000;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 5% 0;
+    text-align: center;
+}
+
+header p {
+    text-align: center;
+}
+
+nav, footer {
+    clear: both;
+    color: rgb(248, 247, 247);
+    background-color: #000000bc;
+    height: 30px;
+}
+nav ul {
+    margin: 0px;
+    padding: 5px 0px 5px 30px;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 40px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav li a:hover, nav li a.current {
+    color: #196eb4;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.about {
+    background-color: #f2f2f2;
+    padding: 50px 0;
+    margin: 5% 0;
+}
+
+.about h2 {
+    text-align: center;
+}
+
+.skills {
+    background-color: #f2f2f2;
+}
+
+.skills h2 {
+    text-align: center;
+}
+
+.projects {
+    background-color: #f2f2f2;
+    margin: 5% 0;
+}
+.projects h2 {
+    text-align: center;
+}
+
+article {
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+hgroup {
+    margin-top: 40px;
+}
+figure img {
+    float: left;
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin:  20px;
+    border:  1px solid #eeeeee;
+}
+
+.contact {
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+form {
+    padding: 0 60px 65px 60px;
+  }
+  
+  label {
+    color: #141313;
+    display: block;
+    margin: 10px 0 10px 0;
+    font-size: 24px;
+  }
+
+  input[type='submit'], a.add {
+    background-color: #000000;
+    color: #f1edeb;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  input[type='submit']:hover, a.add:hover {
+    background-color: #d75359;
+    color: #f3dad1;
+    cursor: pointer;
+    box-shadow: none;
+    position: relative;
+    top: 1px;
+  }

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="css/Portfolio.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h1>Welcome to My Portfolio</h1>
+        <p>A brief description of my work and experience.</p>
+    </header>
+    <main>
+        <section class="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae sequi iusto libero sed, debitis deserunt quas iste provident hic culpa, accusantium ratione, veritatis soluta doloribus consectetur accusamus beatae numquam ea.
+                </p>
+            </div>
+        </section>
+        <section class="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                </ul>
+            </div>
+        </section>
+        <section class="projects">
+            <h2>Projects</h2>
+            <article>
+                <figure>
+                    <img src="images/r_music4.jpg" alt="Healing Letters" />
+                </figure>
+                <hgroup>
+                    <h3>Project 1</h3>
+                </hgroup>
+                <p>project1 description</p>
+            </article>
+            <article>
+                <figure>
+                    <img src="images/song1.jpg" alt="Miscedence" />
+                </figure>
+                <hgroup>
+                    <h3>Project 2</h3>
+                </hgroup>
+                <p>project2 description
+                </p>
+            </article>
+            <article>
+                <figure>
+                    <img src="images/song2.jpg" alt="Photographers" />
+                </figure>
+                <hgroup>
+                    <h3>Project 3</h3>
+                </hgroup>
+                <p>project3 description</p>
+            </article>
+        </section>
+        <section class="contact">
+            <div id="page">
+                <h2>Contact</h2>
+                <form id="contactForm" onsubmit="return validateForm()">
+                      <label for="name">Your Name:</label>
+                      <input type="text" id="name" name="name" required>
+                      <span id="nameError" class="error"></span><br>
+
+                      <label for="email">Your Email:</label>
+                      <input type="email" id="email" name="email" required>
+                      <span id="emailError" class="error"></span><br>
+
+                      <label for="message">Your Message</label>
+                      <input type="text" id="message" name="message" required>
+                      <span id="messageError" class="error"></span><br>
+
+                      <input type="submit" value="Send Message">
+                </form>
+
+                <script>
+                    function validateForm() {
+                        const name = document.getElementById("name").value;
+                        const email = document.getElementById("email").value;
+                        const message = document.getElementById("message").value;
+
+                        if (message.length < 5) {
+                            document.getElementById("messageError").innerText = "Message should be at least 5 characters";
+                            return false;
+                        } else {
+                            document.getElementById("messageError").innerText = "";
+                        }
+
+                        return true;
+                    }
+                </script>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
