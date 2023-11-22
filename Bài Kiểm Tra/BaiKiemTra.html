@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exam</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <div id="paragraph-section">MULTI STEP FORM WIDGET</div>
+      <div id="main">
+        <div id="form-section">
+          <form action="" onsubmit="return validateForm()">
+            <input type="submit" name="" id="profile-btn" value="Profile" /><br />
+            <input required class="information" type="text" name="fName" id="" placeholder="First Name"/>
+            <input required class="information" type="text" name="lName" id="" placeholder="Last Name" />
+            <input required class="information" type="text" name="phone" id="" placeholder="Phone" />
+            <div class="gender-option">
+              <label for="gender">Gender :</label>
+              <input type="radio" name="your_gender"  id="" value="male" required/>
+
+              <label for="male">Male</label>
+              <input type="radio" name="your_gender"  id="" value="female" required />
+
+              <label for="female">Female</label>
+            </div>
+            <textarea name="" id="message" placeholder="Address"></textarea>
+            <div>
+              <input type="submit" name="" id="next-btn" value="Next" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

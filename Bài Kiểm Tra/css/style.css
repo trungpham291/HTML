@@ -1,0 +1,105 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+
+body {
+  background-color: #3498db;
+}
+#wrapper {
+  margin-top: 50px;
+}
+#main {
+  background-color: #fff;
+  width: 400px;
+  height: 558px;
+  margin-right: auto;
+  margin-left: auto;
+  color: gray;
+}
+#paragraph-section {
+  color: #fff;
+  font-weight: 800;
+  text-align: center;
+  font-size: 31px;
+  font-style: italic;
+  margin-bottom: 50px;
+}
+#form-section {
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+  height: 558px;
+  padding: 26px 0;
+}
+
+.information {
+  width: 100%;
+  font-size: 17px;
+  padding: 6px 8px;
+  margin-bottom: 15px;
+  border: 1px solid #d2d2d2;
+  /* border-radius: 6px; */
+}
+#profile-btn {
+  color: #fff;
+  background-color: #3498db;
+  outline: none;
+  border: #3498db;
+  padding: 6px 9px;
+  margin-bottom: 60px;
+  cursor: pointer;
+}
+
+#next-btn {
+  color: #fff;
+  background-color: #3498db;
+  outline: none;
+  border: #3498db;
+  padding: 8px 16px;
+  cursor: pointer;
+  margin-top: 30px;
+}
+textarea {
+  width: 318px;
+  height: 126px;
+  padding: 6px 8px;
+}
+.gender-option {
+  margin: 16px 0px;
+}
